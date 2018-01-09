@@ -7,12 +7,12 @@
 
     <!--  Stylesheets -->
     <link rel="stylesheet" href="stylesheets/app.css">
-    <link rel="stylesheet" href="/jquery-labelauty.css" />
+    <link rel="stylesheet" href="jquery-labelauty.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="/magnific-popup.css"> 
+    <link rel="stylesheet" href="magnific-popup.css"> 
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
@@ -31,15 +31,8 @@
     {% block javascript %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="javascripts/app.js"></script>
-    <!-- <script src="js/vendor/jquery.js"></script> -->
-    <script>
-        window.Modernizr || document.write('<script type="text/javascript" src="javascripts/vendor/modernizr.js">\x3C/script>');
-        window.jQuery || document.write('<script type="text/javascript" src="javascripts/vendor/jquery.js">\x3C/script>');
-    </script>
+    <script src="javascripts/vendor.js"></script>
 
-    <script src="javascripts/garlic.js"></script>
-    <script src="javascripts/jquery-labelauty.js"></script>
-    <script src="javascripts/jquery.magnific-popup.min.js"></script>
     <script>
         $(document).ready(function(){
             $(":checkbox").labelauty({ label: false });

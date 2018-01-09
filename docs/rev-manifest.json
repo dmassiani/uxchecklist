@@ -173,6 +173,7 @@
   "images/icons64/ab-testing.png": "images/icons64/ab-testing-d02231d012.png",
   "images/input-checked.png": "images/input-checked-61f5683c6a.png",
   "images/input-unchecked.png": "images/input-unchecked-b96b35f79c.png",
-  "javascripts/app.js": "javascripts/app-b6ac862fd4bcfbac1d03.js",
+  "javascripts/app.js": "javascripts/app-e2d0ea0e9466697c2018.js",
+  "javascripts/vendor.js": "javascripts/vendor-e2d0ea0e9466697c2018.js",
   "stylesheets/app.css": "stylesheets/app-7c692d5686.css"
 }

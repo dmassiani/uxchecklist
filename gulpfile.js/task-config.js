@@ -11,7 +11,13 @@ module.exports = {
     entry: {
       // files paths are relative to
       // javascripts.dest in path-config.json
-      app: ["./app.js"]
+      app: ["./app.js"],
+      vendor: [
+        "./garlic.js",
+        "./jquery-labelauty.js",
+        "./jquery.magnific-popup.min.js",
+        "./realtime.js"
+      ]
     }
   },
 
