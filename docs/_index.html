@@ -2,29 +2,18 @@
             $(":checkbox").labelauty({ label: false });
             $("#checklist-form").garlic();
             $("#print").on('click', function(){
-                ga('send', 'event', 'print', 'click', 'print');
                 window.print();
             });
             $("#reset").on('click', function(){
-                ga('send', 'event', 'reset', 'click', 'reset');
                 $('input:checkbox').each(function() {
                     $(this).prop('checked', false);
                 });
                 $("#checklist-form").garlic('destroy');
             });
-            $("#footer a").on('click', function(e){
-                var elm = e.currentTarget;
-                ga('send', 'event', 'footer', $(elm).attr('title'));
-            });
             $("input:checkbox").on('change', function(e){
                 var cb = $(this);
                 var id = cb.attr('id');
                 var isChecked = cb.is(':checked');
-                ga('send', 'event', {
-                    'eventCategory': 'checkbox',
-                    'eventAction': isChecked ? 'set' : 'clear',
-                    'eventLabel': id
-                });
             });
 
             $('.open-popup-link').magnificPopup({
