@@ -1,18 +1,18 @@
-UX Project Checklist
+# UX Project Checklist
 ===========
 
 Start your next UX project with this checklist and don't forget anything!
 
 
-### Research
+### Recherche
 
-##### Competitive Analysis
-See how others solve similar problems and try to not reinvent the wheel.
+##### Analyse de la concurrence
+Regarder comment les autres ont résolus un problème similaire afin de ne pas réinventer la roue.
 
-##### Data analysis
+##### Analyse des données
 Do you have all the useful data you need? Try to have a look at funnels, clicks, page views, performance... 
 
-##### User feedback
+##### Retour utilisateur
 Always speak with the Customer Care team! Don't have one? Check your old surveys or videos. What do your customers say? What do they actually do? 
 
 
@@ -111,3 +111,32 @@ Plan your A/B test ahead and, if you can, plan a short roadmap of improvements. 
 ##### Test
 UX lab, survey, sessions recording... Test, observe, and fix...test, observe, and fix... 
 
+# Using Blendid
+# ![Blendid](https://raw.githubusercontent.com/vigetlabs/blendid/master/extras/blendid-logo.png)
+
+[![Build Status](https://travis-ci.org/vigetlabs/blendid.svg?branch=static-server)](https://travis-ci.org/vigetlabs/blendid)
+[![Stories in Ready](https://badge.waffle.io/vigetlabs/blendid.png?label=ready&title=Ready)](https://waffle.io/vigetlabs/blendid)
+
+**Blendid** *(formerly known as Gulp Starter)* is a delicious stand-alone blend of tasks and build tools poured into [Gulp](http://gulpjs.com/) to form a full-featured modern asset pipeline. It can be used as-is as a static site builder, or can be configured and integrated into your own development environment and site or app structure.
+
+## Quick start on a fresh project (empty directory)
+```bash
+yarn init
+yarn add blendid
+yarn run blendid -- init
+yarn run blendid
+```
+
+This will create default src and config files in your directory and start compiling and live-updating files! Try editing them and watch your browser auto-update!
+
+## Documentation
+
+[Full documentation is available on the Wiki](https://github.com/vigetlabs/blendid/wiki)
+
+***
+
+<a href="http://code.viget.com">
+  <img src="http://code.viget.com/github-banner.png" alt="Code At Viget">
+</a>
+
+Visit [code.viget.com](http://code.viget.com) to see more projects from [Viget.](https://viget.com)
