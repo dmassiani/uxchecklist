@@ -1,0 +1,56 @@
+<!doctype html><html class="no-js" lang="fr"><head><meta charset="utf-8"><title></title><!--  Stylesheets --><link rel="stylesheet" href="stylesheets/app-7c692d5686.css"><link rel="stylesheet" href="/jquery-labelauty.css"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><!-- Magnific Popup core CSS file --><link rel="stylesheet" href="/magnific-popup.css"><link rel="stylesheet" href="/style.css"><script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script><meta name="viewport" content="width=device-width,initial-scale=1"><!-- Generate using http://realfavicongenerator.net/ --><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta property="og:title" content="UX Project Checklist"><meta property="og:ulr" content="http://uxchecklist.github.io/"><meta property="og:image" content="http://uxchecklist.github.io/apple-touch-icon.png"><meta property="og:description" content="Start your next UX project with this checklist and don't forget about anything!"></head><body><h1 data-module="example">Blendid!</h1><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="javascripts/app-b6ac862fd4bcfbac1d03.js"></script><!-- <script src="js/vendor/jquery.js"></script> --><script>window.Modernizr || document.write('<script type="text/javascript" src="javascripts/vendor/modernizr.js">\x3C/script>');
+        window.jQuery || document.write('<script type="text/javascript" src="javascripts/vendor/jquery.js">\x3C/script>');</script><script src="javascripts/garlic.js"></script><script src="javascripts/jquery-labelauty.js"></script><script src="javascripts/jquery.magnific-popup.min.js"></script><script>$(document).ready(function(){
+            $(":checkbox").labelauty({ label: false });
+            $("#checklist-form").garlic();
+            $("#print").on('click', function(){
+                ga('send', 'event', 'print', 'click', 'print');
+                window.print();
+            });
+            $("#reset").on('click', function(){
+                ga('send', 'event', 'reset', 'click', 'reset');
+                $('input:checkbox').each(function() {
+                    $(this).prop('checked', false);
+                });
+                $("#checklist-form").garlic('destroy');
+            });
+            $("#footer a").on('click', function(e){
+                var elm = e.currentTarget;
+                ga('send', 'event', 'footer', $(elm).attr('title'));
+            });
+            $("input:checkbox").on('change', function(e){
+                var cb = $(this);
+                var id = cb.attr('id');
+                var isChecked = cb.is(':checked');
+                ga('send', 'event', {
+                    'eventCategory': 'checkbox',
+                    'eventAction': isChecked ? 'set' : 'clear',
+                    'eventLabel': id
+                });
+            });
+
+            $('.open-popup-link').magnificPopup({
+                type:'inline',
+                midClick: true,
+                callbacks: {
+                    open: function() {
+                        ga('send', 'event', 'popup', 'open', $(this.content).attr('id'));
+                    },
+                    close: function() {
+                        ga('send', 'event', 'popup', 'close', $(this.content).attr('id'));
+                    }
+                }
+            });
+        });
+
+        //realtime api
+        var checkboxes = {};
+        var view = null;
+        var controller = null;
+
+        $().ready(function(){
+            var isFn = function(id, e) { return $(e).is(':checked'); };
+            var setFn = function(id, e, val) {
+                $(e).prop('checked', val);
+                $(e).garlic('persist');
+            };
+        });</script></body></html>
