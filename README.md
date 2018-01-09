@@ -1,7 +1,7 @@
 # UX Project Checklist (FR)
 ===========
 
-https://dmassiani.github.io/uxchecklist.github.io/
+https://dmassiani.github.io/uxchecklist/
 
 Démarrez votre prochain projet UX avec cette checklist pour être sûr de ne rien oublier !
 
