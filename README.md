@@ -3,8 +3,7 @@
 
 https://dmassiani.github.io/uxchecklist.github.io/
 
-Start your next UX project with this checklist and don't forget anything!
-
+Démarrez votre prochain projet UX avec cette checklist pour être sûr de ne rien oublier !
 
 ### Recherche
 
@@ -12,25 +11,25 @@ Start your next UX project with this checklist and don't forget anything!
 Regarder comment les autres ont résolus un problème similaire afin de ne pas réinventer la roue.
 
 ##### Analyse des données
-Do you have all the useful data you need? Try to have a look at funnels, clicks, page views, performance... 
+Êtes-vous sûr d'avoir toutes les données dont vous avez besoin ? Essayez les tunnels de conversion, le nombre de clicks, les pages vues, les performances...
 
-##### Retour utilisateur
-Always speak with the Customer Care team! Don't have one? Check your old surveys or videos. What do your customers say? What do they actually do? 
+##### Retours utilisateur
+Il faut toujours discuter avec le service client ! Il n'y en a pas ? Retrouvez tout ce que vous pouvez sur les témoignages des utilisateurs, ce qu'ils disent, ce qu'ils font vraiment.
 
 
 ### Plan
 
-##### User stories
-Have you done personas yet? If not, DO IT NOW. Ok, now use them to write down user stories and scenarios. 
+##### Histoire d'utilisateurs
+Avez-vous défini des personas ? Si non, faites-le dès maintenant puis utilisez les pour écrire les histoires et scénarios
 
-##### User flows
-Create your user's flow based on the scenarios you created; you can use it later to review the journey and create wireframes on top of each step. 
+##### Parcours Utilisateur
+Créez vos parcours utilisateur basé sur les scénarios que vous avez créé. Utilisez les plus tard pour vérifier et créer les prototypes et ce à chaque étape.
 
-##### Red routes
-Define red routes for your product and you’ll be able to identify, prioritise and eliminate any usability obstacles on key user journeys. 
+##### Chemins prioritaires
+Définissez vos chemins prioritaires pour vos produits et vous allez pouvoir identifier, prioriser et éliminer tous les obstacles d'une journée type de vos utilisateurs.
 
 
-### Explore
+### Explorer
 
 ##### Brainstorm & sketch
 Find a war room, fill it with markers and drinks, get together and sketch, discuss, vote, disrupt, have fun! 
