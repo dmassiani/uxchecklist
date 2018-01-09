@@ -1,4 +1,4 @@
-# UX Project Checklist
+# UX Project Checklist (FR)
 ===========
 
 Start your next UX project with this checklist and don't forget anything!
@@ -129,10 +129,3 @@ This will create default src and config files in your directory and start compil
 
 [Full documentation is available on the Wiki](https://github.com/vigetlabs/blendid/wiki)
 
-***
-
-<a href="http://code.viget.com">
-  <img src="http://code.viget.com/github-banner.png" alt="Code At Viget">
-</a>
-
-Visit [code.viget.com](http://code.viget.com) to see more projects from [Viget.](https://viget.com)
