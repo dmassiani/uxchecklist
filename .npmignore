@@ -4,3 +4,4 @@ extras/demo
 gulpfile.js/**/*.test.js
 .editorconfig
 public
+docs
